@@ -1,0 +1,256 @@
+:root{
+  --primario: #ED9AC2;
+  --secundario: #FFDE59;
+  --terciario:#B7F96D;
+  --cuaternario:#55DCE5;
+  --quintanario: #FF7D79;
+  --button:#CB6CE6;
+  --text:#36383B;
+}
+
+.poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  width: 150%;
+}
+
+
+h1 {
+  margin: 0;
+  color: #FFF;
+  font-size: 40px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--button);
+}
+
+main {
+  padding-left: 40px;
+}
+
+.container-header{
+  width:100%;
+  position: absolute;
+}
+
+
+.container-inventory{
+  margin-top: 12%;
+  width: 50%;
+  height: auto;
+  padding: 1rem;
+  border: 3px solid;
+  border-radius: 15px;
+  position: absolute;
+  text-align: start;
+  background-color: #fff;
+  border-color: var(--primario);
+}
+
+.container-pointsale{
+  margin-top: 12%;
+  margin-left: 55%;
+  width: 35%;
+  height: auto;
+  padding: 1rem;
+  border: 3px solid;
+  border-radius: 15px;
+  position: absolute;
+  text-align: start;
+  background-color: #fff;
+  border-color: var(--primario);
+}
+
+.lista ul
+{
+   padding-right: 0px;
+   padding-left: 0px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   margin: 0px;
+}
+.lista li
+{
+   list-style-type: none;
+   display: inline;
+   padding-right: 5px;
+}
+
+.inventario{
+  list-style-type: none;
+  display: inline;
+  padding-right: 5px;
+  display: flex;
+}
+
+.container-img{
+  text-align: center;
+  align-items: center;
+  width: 90px;
+  height: 90px;
+  margin: 10px;
+}
+
+.container-article{
+  text-align: left;
+  padding-left: 15px;
+  align-items: center;
+  width: auto;
+  color: var(--text);
+  font-size: 18px;
+}
+
+.responsive {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
+}
+
+section {
+  width: auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: absolute;
+}
+
+h2 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+  border-bottom: none;
+  display: flex;
+}
+
+#inventory-list img {
+  width: 100px;
+  border-radius: 5px;
+  margin-right: 10px;
+  display: flex;
+}
+
+.inventory-list{
+  display: flex;
+}
+
+#point-of-sale form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin: 5px;
+  color: var(--text);
+  font-size: 25px;
+}
+
+input[type="number"] {
+  width: 100px;
+  margin: 5px;
+  padding: 5px;
+  color: var(--text);
+  font-size: 20px;
+  align-items: center;
+  border-color: var(--button);
+  border-radius: 5px;
+  padding-left: 15px;
+  font-family: "Poetsen One";
+}
+
+input[type="number"]:hover{
+  border: 5px solid;
+  border-color: var(--button);
+}
+
+input[type="number"]:active{
+  border: 5px solid;
+  border-color: var(--button);
+}
+
+
+
+select{
+  margin: 5px;
+  padding: 5px;
+  color: var(--text);
+  font-size: 20px;
+  align-items: center;
+  border-color: var(--button);
+  font-family: "Poetsen One";
+  border-radius: 5px;
+}
+
+select:hover{
+  border: 5px solid;
+  border-color: var(--button);
+}
+
+select:active{
+  border: 5px solid;
+  border-color: var(--button);
+}
+
+#sale-items div {
+  font-size: 22px;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--primario);
+}
+
+#sale-items div button {
+  margin-left: 1rem;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background-color: var(--button);;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 20px;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button:hover {
+  background-color: var(--terciario);
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--text);
+}
+
+button:active {
+  background-color: var(--terciario);
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

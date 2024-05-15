@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+	<title>Papelería Matos</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4a84d99523.js" crossorigin="anonymous"></script>
+    <script src="js/script.js" rel="javascript"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    
+</head>
+  
+<body>
+
+  <!-- Encabezado -->
+  <div class="container-header"><img src="img/BannerHeader.png" alt="BannerHeader" class="responsive" style="max-width: 100%; height: auto; float: initial;"></img></div>
+
+  <img src="img/Encabezado.png" alt="Encabezado" class="responsive" style="max-width: 50%;height: auto; float: initial; position: absolute;"></img>
+
+
+  <!-- Main --> 
+  <main>
+    
+    <!-- Inventario -->
+    <div class="container-inventory" id="inventory">
+
+        <h1>Inventario</h1>
+        <ul id="inventory-list">
+          <!-- Aquí se mostrará la lista de productos -->
+        </ul>
+      
+    </div>
+    
+    
+    <!-- Punto de Venta -->
+    <div class="container-pointsale" id="point-of-sale">
+      <h1>Realizar venta</h1><br>
+      <form id="sale-form">
+        <div id="sale-items">
+          <!-- Aquí se mostrarán los productos añadidos a la venta -->
+        </div>
+        <br>
+        <label for="product">Producto:</label>
+        <select id="product">
+          <!-- Aquí se cargarán los productos del inventario -->
+        </select><br>
+        <label for="quantity">Cantidad:</label>
+        <input type="number" id="quantity" min="1" value="1"><br>
+        <button type="button" onclick="addProduct()">Agregar a la venta</button><br>
+        <button type="submit">Procesar venta</button>
+      </form>
+    </div>
+
+
+
+
+  </main>
+
+
+  
+
+</body>
+</html>
